@@ -24,6 +24,7 @@ public class Main {
             list.forEach(System.out::println);
             resultSet.close();
             stmt.close();
+            dsd
             conn.close();
         } catch (SQLException e) {
             throw new RuntimeException(e);
